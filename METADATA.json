@@ -237,7 +237,7 @@
     "dataset_size": "2.96 GB",
     "dataset_size_bytes": 3178640220,
     "dataset_file_count": 16000,
-    "image_format": "voc+yolo",
+    "image_format": "VOC, YOLO",
     "class_distribution": {
       "Transverse Patch": 2622,
       "Longitudinal Patch": 4128,
@@ -356,22 +356,27 @@
   "authors": [
     {
       "name": "Miao Ren",
-      "affiliation": "Not reported",
+      "affiliation": "Peking University",
       "role": "Dataset Creator"
     },
     {
       "name": "Xiaobo Zhi",
-      "affiliation": "Not reported",
+      "affiliation": "Peking University",
       "role": "Dataset Creator"
     },
     {
       "name": "Yuanjia Wei",
-      "affiliation": "Not reported",
+      "affiliation": "Peking University",
       "role": "Dataset Creator"
     },
     {
       "name": "Xianfeng Zhang",
-      "affiliation": "Not reported",
+      "affiliation": "Peking University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Ziyuan Feng",
+      "affiliation": "Peking University",
       "role": "Dataset Creator"
     }
   ],
@@ -383,7 +388,7 @@
     "homepage": "https://zenodo.org/records/10100129"
   },
   "citation": {
-    "bibtex": "@article{ren2024svrdd_descriptor,\n  title = {An annotated street view image dataset for automated road damage detection},\n  author = {Ren, Miao and Zhi, Xiaobo and Wei, Yuanjia and Zhang, Xianfeng},\n  journal = {Scientific Data},\n  year = {2024},\n  doi = {10.1038/s41597-024-03263-7},\n  url = {https://www.nature.com/articles/s41597-024-03263-7}\n}\n\n@dataset{ren2023svrdd,\n  title = {Street View Road Damage Dataset (SVRDD)},\n  author = {Ren, Miao and Zhi, Xiaobo and Wei, Yuanjia and Zhang, Xianfeng},\n  year = {2023},\n  doi = {10.5281/zenodo.10100129},\n  url = {https://zenodo.org/records/10100129}\n}"
+    "bibtex": "@article{ren2024svrdd_descriptor,\n  title = {An annotated street view image dataset for automated road damage detection},\n  author = {Ren, Miao and Zhang, Xianfeng and Zhi, Xiaobo and Wei, Yuanjia and Feng, Ziyuan},\n  journal = {Scientific Data},\n  year = {2024},\n  doi = {10.1038/s41597-024-03263-7},\n  url = {https://www.nature.com/articles/s41597-024-03263-7}\n}\n\n@dataset{ren2023svrdd,\n  title = {Street View Road Damage Dataset (SVRDD)},\n  author = {Ren, Miao and Zhang, Xianfeng and Zhi, Xiaobo and Wei, Yuanjia and Feng, Ziyuan},\n  year = {2023},\n  doi = {10.5281/zenodo.10100129},\n  url = {https://zenodo.org/records/10100129}\n}"
   },
   "tags": [
     "object-detection",
