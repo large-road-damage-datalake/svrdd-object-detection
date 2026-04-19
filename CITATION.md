@@ -1,9 +1,9 @@
 # Citation
 
-Primary source dataset:
+Paper:
 
-- Ren, M., Zhi, X., Wei, Y., & Zhang, X. (2023). SVRDD [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10100129
+- Ren, M., Zhi, X., Wei, Y., & Zhang, X. (2024). An annotated street view image dataset for automated road damage detection. Scientific Data. https://doi.org/10.1038/s41597-024-03263-7
 
-Data descriptor:
+Source dataset:
 
-- https://www.nature.com/articles/s41597-024-03263-7
+- Ren, M., Zhi, X., Wei, Y., & Zhang, X. (2023). Street View Road Damage Dataset (SVRDD) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10100129

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Object detection packaging of SVRDD (Street View Road Damage Dataset), a Beijing city road-surface benchmark with region-wise imagery and VOC labels; the source release also includes YOLO annotations.
+Object detection packaging of SVRDD (Street View Road Damage Dataset), a Beijing city road-surface benchmark with region-wise imagery annotated in VOC and YOLO formats.
 
 - Task: object_detection
 - Images: 8000
@@ -24,7 +24,7 @@ Object detection packaging of SVRDD (Street View Road Damage Dataset), a Beijing
 
 - Source: https://zenodo.org/records/10100129
 - Paper: https://www.nature.com/articles/s41597-024-03263-7
-- License: CC BY 4.0 (plus Baidu Maps platform terms for imagery usage)
+- License: CC BY 4.0
 
 ## Package Repository
 

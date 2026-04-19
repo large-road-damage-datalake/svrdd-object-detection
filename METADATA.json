@@ -4,7 +4,7 @@
     "id": "svrdd-object-detection",
     "name": "SVRDD",
     "short_name": "svrdd-od",
-    "description": "Object detection packaging of SVRDD (Street View Road Damage Dataset), a Beijing city road-surface benchmark with region-wise imagery and VOC labels; the source release also includes YOLO annotations.",
+    "description": "Object detection packaging of SVRDD (Street View Road Damage Dataset), a Beijing city road-surface benchmark with region-wise imagery annotated in VOC and YOLO formats.",
     "year": 2024
   },
   "project_context": {
@@ -81,7 +81,7 @@
         {
           "id": 4,
           "name": "Manhole Cover",
-          "canonical_name": "context.object_fixed",
+          "canonical_name": "context.manhole_cover",
           "description": "SVRDD class: Manhole Cover",
           "color": "#A43DC5",
           "instances": 3339
@@ -117,10 +117,10 @@
     "version": "road_damage_v1",
     "classes": [
       {
-        "canonical_name": "context.object_fixed",
-        "display_name": "Fixed Object",
+        "canonical_name": "context.manhole_cover",
+        "display_name": "Manhole Cover",
         "damage_family": "context_non_damage",
-        "damage_subtype": "object_fixed",
+        "damage_subtype": "manhole_cover",
         "role": "context",
         "is_damage_target": false,
         "aliases": [
@@ -237,7 +237,7 @@
     "dataset_size": "2.96 GB",
     "dataset_size_bytes": 3178640220,
     "dataset_file_count": 16000,
-    "image_format": "voc",
+    "image_format": "voc+yolo",
     "class_distribution": {
       "Transverse Patch": 2622,
       "Longitudinal Patch": 4128,
@@ -293,7 +293,11 @@
         "dataset_size_bytes": 363507926,
         "dataset_file_count": 2000
       }
-    }
+    },
+    "annotation_formats": [
+      "voc",
+      "yolo"
+    ]
   },
   "geographic_coverage": {
     "countries": [
@@ -371,7 +375,7 @@
       "role": "Dataset Creator"
     }
   ],
-  "license": "CC BY 4.0; usage of Baidu street-view imagery must respect Baidu Maps Open Platform Terms of Service",
+  "license": "CC BY 4.0",
   "links": {
     "github": "https://github.com/large-road-damage-datalake/svrdd-object-detection",
     "download": "https://zenodo.org/records/10100129",
@@ -379,7 +383,7 @@
     "homepage": "https://zenodo.org/records/10100129"
   },
   "citation": {
-    "bibtex": "@dataset{ren2023svrdd,\n  title = {SVRDD},\n  author = {Ren, Miao and Zhi, Xiaobo and Wei, Yuanjia and Zhang, Xianfeng},\n  year = {2023},\n  doi = {10.5281/zenodo.10100129},\n  url = {https://zenodo.org/records/10100129}\n}\n\n@article{svrdd2024scientificdata,\n  title = {Street View Road Damage Dataset (SVRDD)},\n  author = {Ren, Miao and Zhi, Xiaobo and Wei, Yuanjia and Zhang, Xianfeng},\n  journal = {Scientific Data},\n  year = {2024},\n  doi = {10.1038/s41597-024-03263-7},\n  url = {https://www.nature.com/articles/s41597-024-03263-7}\n}"
+    "bibtex": "@article{ren2024svrdd_descriptor,\n  title = {An annotated street view image dataset for automated road damage detection},\n  author = {Ren, Miao and Zhi, Xiaobo and Wei, Yuanjia and Zhang, Xianfeng},\n  journal = {Scientific Data},\n  year = {2024},\n  doi = {10.1038/s41597-024-03263-7},\n  url = {https://www.nature.com/articles/s41597-024-03263-7}\n}\n\n@dataset{ren2023svrdd,\n  title = {Street View Road Damage Dataset (SVRDD)},\n  author = {Ren, Miao and Zhi, Xiaobo and Wei, Yuanjia and Zhang, Xianfeng},\n  year = {2023},\n  doi = {10.5281/zenodo.10100129},\n  url = {https://zenodo.org/records/10100129}\n}"
   },
   "tags": [
     "object-detection",
@@ -394,7 +398,7 @@
   "source_publication": {
     "dataset_doi": "10.5281/zenodo.10100129",
     "article_doi": "10.1038/s41597-024-03263-7",
-    "article_title": "Street View Road Damage Dataset (SVRDD) data descriptor",
+    "article_title": "An annotated street view image dataset for automated road damage detection",
     "journal": "Scientific Data",
     "year": 2024
   }
