@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Chaoyang</folder>
+   <filename>0900220012200311130757485HJ_1296861100_483794800.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Longitudinal Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>519</xmin>
+         <ymin>558</ymin>
+         <xmax>526</xmax>
+         <ymax>763</ymax>
+      </bndbox>
+   </object>
+</annotation>

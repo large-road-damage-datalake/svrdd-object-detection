@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Chaoyang</folder>
+   <filename>09002200121902241045329768O_1295852100_484453900.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>534</xmin>
+         <ymin>593</ymin>
+         <xmax>567</xmax>
+         <ymax>600</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Transverse Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>328</xmin>
+         <ymin>658</ymin>
+         <xmax>833</xmax>
+         <ymax>693</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>415</xmin>
+         <ymin>610</ymin>
+         <xmax>457</xmax>
+         <ymax>620</ymax>
+      </bndbox>
+   </object>
+</annotation>

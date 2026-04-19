@@ -1,0 +1,72 @@
+{
+  "total_images": 8000,
+  "total_annotations": 20804,
+  "total_classes": 7,
+  "splits_breakdown": {
+    "chaoyang": {
+      "images": 2000,
+      "annotations": 3983,
+      "classes": {
+        "Transverse Patch": 364,
+        "Longitudinal Patch": 734,
+        "Transverse Crack": 677,
+        "Longitudinal Crack": 1147,
+        "Manhole Cover": 578,
+        "Pothole": 55,
+        "Alligator Crack": 428
+      }
+    },
+    "dongcheng": {
+      "images": 1000,
+      "annotations": 2879,
+      "classes": {
+        "Longitudinal Crack": 731,
+        "Manhole Cover": 654,
+        "Transverse Crack": 415,
+        "Transverse Patch": 407,
+        "Alligator Crack": 95,
+        "Pothole": 20,
+        "Longitudinal Patch": 557
+      }
+    },
+    "fengtai": {
+      "images": 2000,
+      "annotations": 5636,
+      "classes": {
+        "Transverse Patch": 908,
+        "Manhole Cover": 715,
+        "Longitudinal Crack": 852,
+        "Longitudinal Patch": 885,
+        "Transverse Crack": 848,
+        "Alligator Crack": 763,
+        "Pothole": 665
+      }
+    },
+    "haidian": {
+      "images": 2000,
+      "annotations": 5913,
+      "classes": {
+        "Transverse Crack": 1153,
+        "Alligator Crack": 378,
+        "Transverse Patch": 706,
+        "Longitudinal Crack": 1160,
+        "Longitudinal Patch": 1447,
+        "Manhole Cover": 896,
+        "Pothole": 173
+      }
+    },
+    "xicheng": {
+      "images": 1000,
+      "annotations": 2393,
+      "classes": {
+        "Longitudinal Patch": 505,
+        "Manhole Cover": 496,
+        "Longitudinal Crack": 775,
+        "Transverse Patch": 237,
+        "Transverse Crack": 311,
+        "Alligator Crack": 64,
+        "Pothole": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Haidian</folder>
+   <filename>0900220001150530080853365I6_1294848300_482418800.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Longitudinal Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>469</xmin>
+         <ymin>562</ymin>
+         <xmax>499</xmax>
+         <ymax>631</ymax>
+      </bndbox>
+   </object>
+</annotation>

@@ -1,0 +1,79 @@
+{
+  "type": "matrix",
+  "labels": [
+    "Alligator Crack",
+    "Longitudinal Crack",
+    "Longitudinal Patch",
+    "Manhole Cover",
+    "Pothole",
+    "Transverse Crack",
+    "Transverse Patch"
+  ],
+  "data": [
+    [
+      1475,
+      314,
+      41,
+      429,
+      238,
+      275,
+      19
+    ],
+    [
+      314,
+      3333,
+      291,
+      1157,
+      235,
+      1111,
+      222
+    ],
+    [
+      41,
+      291,
+      2220,
+      404,
+      43,
+      200,
+      1156
+    ],
+    [
+      429,
+      1157,
+      404,
+      2245,
+      226,
+      901,
+      284
+    ],
+    [
+      238,
+      235,
+      43,
+      226,
+      627,
+      189,
+      42
+    ],
+    [
+      275,
+      1111,
+      200,
+      901,
+      189,
+      2459,
+      153
+    ],
+    [
+      19,
+      222,
+      1156,
+      284,
+      42,
+      153,
+      1706
+    ]
+  ],
+  "title": "Co-occurrence Matrix",
+  "description": "Cell [i,j] is number of images that contain both classes i and j."
+}

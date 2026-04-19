@@ -1,0 +1,34 @@
+{
+  "type": "bar",
+  "title": "Class Distribution",
+  "data": {
+    "labels": [
+      "Transverse Patch",
+      "Longitudinal Patch",
+      "Transverse Crack",
+      "Longitudinal Crack",
+      "Manhole Cover",
+      "Pothole",
+      "Alligator Crack"
+    ],
+    "values": [
+      2622,
+      4128,
+      3404,
+      4665,
+      3339,
+      918,
+      1728
+    ],
+    "total": 20804,
+    "percentages": [
+      12.6,
+      19.84,
+      16.36,
+      22.42,
+      16.05,
+      4.41,
+      8.31
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated": true,
+  "dir": "visualizations/spatial_heatmaps",
+  "classes": [
+    {
+      "class": "Longitudinal Crack",
+      "file": "visualizations/spatial_heatmaps/Longitudinal_Crack.png"
+    },
+    {
+      "class": "Longitudinal Patch",
+      "file": "visualizations/spatial_heatmaps/Longitudinal_Patch.png"
+    },
+    {
+      "class": "Transverse Crack",
+      "file": "visualizations/spatial_heatmaps/Transverse_Crack.png"
+    },
+    {
+      "class": "Manhole Cover",
+      "file": "visualizations/spatial_heatmaps/Manhole_Cover.png"
+    },
+    {
+      "class": "Transverse Patch",
+      "file": "visualizations/spatial_heatmaps/Transverse_Patch.png"
+    },
+    {
+      "class": "Alligator Crack",
+      "file": "visualizations/spatial_heatmaps/Alligator_Crack.png"
+    },
+    {
+      "class": "Pothole",
+      "file": "visualizations/spatial_heatmaps/Pothole.png"
+    }
+  ]
+}

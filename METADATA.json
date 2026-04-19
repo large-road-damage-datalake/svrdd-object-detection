@@ -1,0 +1,401 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "svrdd-object-detection",
+    "name": "SVRDD",
+    "short_name": "svrdd-od",
+    "description": "Object detection packaging of SVRDD (Street View Road Damage Dataset), a Beijing city road-surface benchmark with region-wise imagery and VOC labels; the source release also includes YOLO annotations.",
+    "year": 2024
+  },
+  "project_context": {
+    "task": "object_detection",
+    "tasks": [
+      "object_detection"
+    ],
+    "damage_types": [
+      "crack",
+      "pothole"
+    ],
+    "task_classification": {
+      "primary_task": "object_detection"
+    },
+    "label_taxonomy_version": "road_damage_v1",
+    "region_scope": {
+      "type": "administrative_region",
+      "default": "all",
+      "values": [
+        "all",
+        "Chaoyang",
+        "Dongcheng",
+        "Fengtai",
+        "Haidian",
+        "Xicheng"
+      ]
+    }
+  },
+  "imaging_setup": {
+    "camera": "Street-view imaging platform (Baidu street-view source imagery)",
+    "camera_viewpoint": [
+      "wide-view"
+    ],
+    "resolution": "1024x1024",
+    "lighting_conditions": "Real-world outdoor street scenes",
+    "capture_height_mm": "Not reported",
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "1024x1024",
+        "count": 8000
+      }
+    ]
+  },
+  "annotation_schema": [
+    {
+      "type": "bounding_box",
+      "description": "PASCAL VOC XML annotations (source release also provides YOLO labels)",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Alligator Crack",
+          "canonical_name": "crack.alligator",
+          "description": "SVRDD class: Alligator Crack",
+          "color": "#294F71",
+          "instances": 1728
+        },
+        {
+          "id": 2,
+          "name": "Longitudinal Crack",
+          "canonical_name": "crack.longitudinal",
+          "description": "SVRDD class: Longitudinal Crack",
+          "color": "#529EE2",
+          "instances": 4665
+        },
+        {
+          "id": 3,
+          "name": "Longitudinal Patch",
+          "canonical_name": "repair.general",
+          "description": "SVRDD class: Longitudinal Patch",
+          "color": "#7BED54",
+          "instances": 4128
+        },
+        {
+          "id": 4,
+          "name": "Manhole Cover",
+          "canonical_name": "context.object_fixed",
+          "description": "SVRDD class: Manhole Cover",
+          "color": "#A43DC5",
+          "instances": 3339
+        },
+        {
+          "id": 5,
+          "name": "Pothole",
+          "canonical_name": "pothole",
+          "description": "SVRDD class: Pothole",
+          "color": "#CD8C37",
+          "instances": 918
+        },
+        {
+          "id": 6,
+          "name": "Transverse Crack",
+          "canonical_name": "crack.transverse",
+          "description": "SVRDD class: Transverse Crack",
+          "color": "#F6DBA8",
+          "instances": 3404
+        },
+        {
+          "id": 7,
+          "name": "Transverse Patch",
+          "canonical_name": "repair.general",
+          "description": "SVRDD class: Transverse Patch",
+          "color": "#202B1A",
+          "instances": 2622
+        }
+      ]
+    }
+  ],
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "context.object_fixed",
+        "display_name": "Fixed Object",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "object_fixed",
+        "role": "context",
+        "is_damage_target": false,
+        "aliases": [
+          "object_fixed",
+          "Manhole Cover"
+        ],
+        "source_labels": [
+          "Manhole Cover"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.alligator",
+        "display_name": "Alligator Crack",
+        "damage_family": "crack",
+        "damage_subtype": "alligator",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "alligator",
+          "Alligator crack",
+          "Aligator Crack"
+        ],
+        "source_labels": [
+          "Alligator Crack"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.longitudinal",
+        "display_name": "Longitudinal Crack",
+        "damage_family": "crack",
+        "damage_subtype": "longitudinal",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "longitudinal",
+          "Longitudinal crack",
+          "Lane Longitudinal Crack"
+        ],
+        "source_labels": [
+          "Longitudinal Crack"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.transverse",
+        "display_name": "Transverse Crack",
+        "damage_family": "crack",
+        "damage_subtype": "transverse",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "transverse",
+          "Transverse crack",
+          "Transvers Crack"
+        ],
+        "source_labels": [
+          "Transverse Crack"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "pothole",
+        "display_name": "Pothole",
+        "damage_family": "pothole",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "pothole"
+        ],
+        "source_labels": [
+          "Pothole"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "repair.general",
+        "display_name": "Repair",
+        "damage_family": "patch_repair",
+        "damage_subtype": "generic",
+        "role": "repair",
+        "is_damage_target": false,
+        "aliases": [
+          "Repair",
+          "Transverse Patch",
+          "Longitudinal Patch"
+        ],
+        "source_labels": [
+          "Transverse Patch",
+          "Longitudinal Patch"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack",
+      "pothole"
+    ],
+    "unresolved_labels": []
+  },
+  "statistics": {
+    "n_images": 8000,
+    "n_annotations": 20804,
+    "n_images_with_annotations": 8000,
+    "average_annotations_per_image": 2.6005,
+    "dataset_size": "2.96 GB",
+    "dataset_size_bytes": 3178640220,
+    "dataset_file_count": 16000,
+    "image_format": "voc",
+    "class_distribution": {
+      "Transverse Patch": 2622,
+      "Longitudinal Patch": 4128,
+      "Transverse Crack": 3404,
+      "Longitudinal Crack": 4665,
+      "Manhole Cover": 3339,
+      "Pothole": 918,
+      "Alligator Crack": 1728
+    },
+    "split": {
+      "chaoyang": {
+        "n_images": 2000,
+        "percentage": 0.25,
+        "n_images_with_annotations": 2000,
+        "annotation_coverage": 1.0,
+        "dataset_size": "794.44 MB",
+        "dataset_size_bytes": 833026047,
+        "dataset_file_count": 4000
+      },
+      "dongcheng": {
+        "n_images": 1000,
+        "percentage": 0.12,
+        "n_images_with_annotations": 1000,
+        "annotation_coverage": 1.0,
+        "dataset_size": "383.81 MB",
+        "dataset_size_bytes": 402450442,
+        "dataset_file_count": 2000
+      },
+      "fengtai": {
+        "n_images": 2000,
+        "percentage": 0.25,
+        "n_images_with_annotations": 2000,
+        "annotation_coverage": 1.0,
+        "dataset_size": "762.46 MB",
+        "dataset_size_bytes": 799499198,
+        "dataset_file_count": 4000
+      },
+      "haidian": {
+        "n_images": 2000,
+        "percentage": 0.25,
+        "n_images_with_annotations": 2000,
+        "annotation_coverage": 1.0,
+        "dataset_size": "744.02 MB",
+        "dataset_size_bytes": 780156607,
+        "dataset_file_count": 4000
+      },
+      "xicheng": {
+        "n_images": 1000,
+        "percentage": 0.12,
+        "n_images_with_annotations": 1000,
+        "annotation_coverage": 1.0,
+        "dataset_size": "346.67 MB",
+        "dataset_size_bytes": 363507926,
+        "dataset_file_count": 2000
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "China",
+        "image_count": 8000,
+        "annotated_image_count": 8000,
+        "annotation_coverage": 1.0
+      }
+    ],
+    "temporal_scope": "Published 2023 dataset release; Data Descriptor in 2024",
+    "regions": [
+      {
+        "name": "all",
+        "image_count": 8000,
+        "annotated_image_count": 8000,
+        "annotation_coverage": 1.0
+      },
+      {
+        "name": "Chaoyang",
+        "image_count": 2000,
+        "annotated_image_count": 2000,
+        "annotation_coverage": 1.0
+      },
+      {
+        "name": "Dongcheng",
+        "image_count": 1000,
+        "annotated_image_count": 1000,
+        "annotation_coverage": 1.0
+      },
+      {
+        "name": "Fengtai",
+        "image_count": 2000,
+        "annotated_image_count": 2000,
+        "annotation_coverage": 1.0
+      },
+      {
+        "name": "Haidian",
+        "image_count": 2000,
+        "annotated_image_count": 2000,
+        "annotation_coverage": 1.0
+      },
+      {
+        "name": "Xicheng",
+        "image_count": 1000,
+        "annotated_image_count": 1000,
+        "annotation_coverage": 1.0
+      }
+    ]
+  },
+  "quality_assurance": {
+    "annotation_quality": "Source dataset provides region-wise VOC and YOLO annotations for road-damage objects",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published dataset and data descriptor"
+  },
+  "authors": [
+    {
+      "name": "Miao Ren",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Xiaobo Zhi",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yuanjia Wei",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Xianfeng Zhang",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "CC BY 4.0; usage of Baidu street-view imagery must respect Baidu Maps Open Platform Terms of Service",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/svrdd-object-detection",
+    "download": "https://zenodo.org/records/10100129",
+    "paper": "https://www.nature.com/articles/s41597-024-03263-7",
+    "homepage": "https://zenodo.org/records/10100129"
+  },
+  "citation": {
+    "bibtex": "@dataset{ren2023svrdd,\n  title = {SVRDD},\n  author = {Ren, Miao and Zhi, Xiaobo and Wei, Yuanjia and Zhang, Xianfeng},\n  year = {2023},\n  doi = {10.5281/zenodo.10100129},\n  url = {https://zenodo.org/records/10100129}\n}\n\n@article{svrdd2024scientificdata,\n  title = {Street View Road Damage Dataset (SVRDD)},\n  author = {Ren, Miao and Zhi, Xiaobo and Wei, Yuanjia and Zhang, Xianfeng},\n  journal = {Scientific Data},\n  year = {2024},\n  doi = {10.1038/s41597-024-03263-7},\n  url = {https://www.nature.com/articles/s41597-024-03263-7}\n}"
+  },
+  "tags": [
+    "object-detection",
+    "road-damage",
+    "svrdd",
+    "beijing",
+    "china",
+    "wide-view",
+    "voc",
+    "yolo"
+  ],
+  "source_publication": {
+    "dataset_doi": "10.5281/zenodo.10100129",
+    "article_doi": "10.1038/s41597-024-03263-7",
+    "article_title": "Street View Road Damage Dataset (SVRDD) data descriptor",
+    "journal": "Scientific Data",
+    "year": 2024
+  }
+}

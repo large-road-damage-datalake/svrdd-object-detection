@@ -1,0 +1,39 @@
+{
+  "type": "treemap",
+  "title": "Average area of class objects on image",
+  "series": [
+    {
+      "data": [
+        {
+          "x": "Longitudinal Crack",
+          "y": 2.8056
+        },
+        {
+          "x": "Longitudinal Patch",
+          "y": 2.82
+        },
+        {
+          "x": "Transverse Crack",
+          "y": 2.286
+        },
+        {
+          "x": "Manhole Cover",
+          "y": 0.1514
+        },
+        {
+          "x": "Transverse Patch",
+          "y": 2.3795
+        },
+        {
+          "x": "Alligator Crack",
+          "y": 13.9741
+        },
+        {
+          "x": "Pothole",
+          "y": 0.3807
+        }
+      ]
+    }
+  ],
+  "value_unit": "%"
+}

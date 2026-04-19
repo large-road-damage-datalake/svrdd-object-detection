@@ -1,0 +1,68 @@
+{
+  "columns": [
+    "Class",
+    "Images",
+    "Objects",
+    "Count on image, average",
+    "Area on image, average (%)"
+  ],
+  "data": [
+    [
+      "Longitudinal Crack",
+      3333,
+      4665,
+      1.3996,
+      2.8056
+    ],
+    [
+      "Longitudinal Patch",
+      2220,
+      4128,
+      1.8595,
+      2.82
+    ],
+    [
+      "Transverse Crack",
+      2459,
+      3404,
+      1.3843,
+      2.286
+    ],
+    [
+      "Manhole Cover",
+      2245,
+      3339,
+      1.4873,
+      0.1514
+    ],
+    [
+      "Transverse Patch",
+      1706,
+      2622,
+      1.5369,
+      2.3795
+    ],
+    [
+      "Alligator Crack",
+      1475,
+      1728,
+      1.1715,
+      13.9741
+    ],
+    [
+      "Pothole",
+      627,
+      918,
+      1.4641,
+      0.3807
+    ]
+  ],
+  "description": "Images column counts images containing at least one object of class.",
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 100
+  }
+}
