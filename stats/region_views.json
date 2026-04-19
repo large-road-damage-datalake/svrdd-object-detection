@@ -1,0 +1,3102 @@
+{
+  "version": 1,
+  "default_view": "all",
+  "view_order": [
+    "all",
+    "chaoyang",
+    "dongcheng",
+    "fengtai",
+    "haidian",
+    "xicheng"
+  ],
+  "views": {
+    "all": {
+      "id": "all",
+      "label": "All",
+      "split_names": [
+        "chaoyang",
+        "dongcheng",
+        "fengtai",
+        "haidian",
+        "xicheng"
+      ],
+      "summary": {
+        "num_images": 8000,
+        "num_annotations": 20804,
+        "num_images_with_annotations": 8000,
+        "num_images_without_annotations": 0,
+        "num_classes": 7,
+        "annotation_coverage": 1.0,
+        "class_distribution": {
+          "Transverse Patch": 2622,
+          "Longitudinal Patch": 4128,
+          "Transverse Crack": 3404,
+          "Longitudinal Crack": 4665,
+          "Manhole Cover": 3339,
+          "Pothole": 918,
+          "Alligator Crack": 1728
+        },
+        "resolutions": [
+          "1024x1024"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "1024x1024",
+            "count": 8000
+          }
+        ]
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Crack",
+              3333,
+              4665,
+              1.3996,
+              2.8056
+            ],
+            [
+              "Longitudinal Patch",
+              2220,
+              4128,
+              1.8595,
+              2.82
+            ],
+            [
+              "Transverse Crack",
+              2459,
+              3404,
+              1.3843,
+              2.286
+            ],
+            [
+              "Manhole Cover",
+              2245,
+              3339,
+              1.4873,
+              0.1514
+            ],
+            [
+              "Transverse Patch",
+              1706,
+              2622,
+              1.5369,
+              2.3795
+            ],
+            [
+              "Alligator Crack",
+              1475,
+              1728,
+              1.1715,
+              13.9741
+            ],
+            [
+              "Pothole",
+              627,
+              918,
+              1.4641,
+              0.3807
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Alligator Crack",
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Manhole Cover",
+            "Pothole",
+            "Transverse Crack",
+            "Transverse Patch"
+          ],
+          "data": [
+            [
+              1475,
+              314,
+              41,
+              429,
+              238,
+              275,
+              19
+            ],
+            [
+              314,
+              3333,
+              291,
+              1157,
+              235,
+              1111,
+              222
+            ],
+            [
+              41,
+              291,
+              2220,
+              404,
+              43,
+              200,
+              1156
+            ],
+            [
+              429,
+              1157,
+              404,
+              2245,
+              226,
+              901,
+              284
+            ],
+            [
+              238,
+              235,
+              43,
+              226,
+              627,
+              189,
+              42
+            ],
+            [
+              275,
+              1111,
+              200,
+              901,
+              189,
+              2459,
+              153
+            ],
+            [
+              19,
+              222,
+              1156,
+              284,
+              42,
+              153,
+              1706
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Crack",
+              4665,
+              2.0045,
+              26.8263,
+              0.0053,
+              11.0,
+              1.0742,
+              467.0,
+              45.6055,
+              139.86,
+              13.6586
+            ],
+            [
+              "Longitudinal Patch",
+              4128,
+              1.5166,
+              20.5161,
+              0.0046,
+              5.0,
+              0.4883,
+              477.0,
+              46.582,
+              106.72,
+              10.4218
+            ],
+            [
+              "Transverse Crack",
+              3404,
+              1.6514,
+              20.6654,
+              0.0164,
+              3.0,
+              0.293,
+              234.0,
+              22.8516,
+              41.58,
+              4.061
+            ],
+            [
+              "Manhole Cover",
+              3339,
+              0.1018,
+              1.5702,
+              0.0031,
+              2.0,
+              0.1953,
+              91.0,
+              8.8867,
+              16.09,
+              1.5708
+            ],
+            [
+              "Transverse Patch",
+              2622,
+              1.5482,
+              18.9197,
+              0.0069,
+              3.0,
+              0.293,
+              215.0,
+              20.9961,
+              37.3,
+              3.6429
+            ],
+            [
+              "Alligator Crack",
+              1728,
+              11.9281,
+              48.5853,
+              0.0957,
+              17.0,
+              1.6602,
+              498.0,
+              48.6328,
+              218.77,
+              21.3639
+            ],
+            [
+              "Pothole",
+              918,
+              0.26,
+              6.4553,
+              0.0023,
+              3.0,
+              0.293,
+              227.0,
+              22.168,
+              26.97,
+              2.6334
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "y_labels": [
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Transverse Crack",
+            "Manhole Cover",
+            "Transverse Patch",
+            "Alligator Crack",
+            "Pothole"
+          ],
+          "z": [
+            [
+              4667,
+              2379,
+              678,
+              194,
+              67,
+              11,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              5780,
+              1157,
+              572,
+              288,
+              111,
+              56,
+              23,
+              9,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              5541,
+              1750,
+              536,
+              129,
+              33,
+              6,
+              3,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              5755,
+              1517,
+              487,
+              157,
+              56,
+              19,
+              6,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              6294,
+              1078,
+              432,
+              136,
+              37,
+              16,
+              5,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              6525,
+              1259,
+              185,
+              27,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              7373,
+              440,
+              120,
+              43,
+              14,
+              8,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 0
+                },
+                {
+                  "x": "1",
+                  "y": 3514
+                },
+                {
+                  "x": "2",
+                  "y": 3165
+                },
+                {
+                  "x": "3",
+                  "y": 1089
+                },
+                {
+                  "x": "4",
+                  "y": 208
+                },
+                {
+                  "x": "5",
+                  "y": 22
+                },
+                {
+                  "x": "6",
+                  "y": 2
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "Longitudinal Crack",
+                  "y": 2.8056
+                },
+                {
+                  "x": "Longitudinal Patch",
+                  "y": 2.82
+                },
+                {
+                  "x": "Transverse Crack",
+                  "y": 2.286
+                },
+                {
+                  "x": "Manhole Cover",
+                  "y": 0.1514
+                },
+                {
+                  "x": "Transverse Patch",
+                  "y": 2.3795
+                },
+                {
+                  "x": "Alligator Crack",
+                  "y": 13.9741
+                },
+                {
+                  "x": "Pothole",
+                  "y": 0.3807
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/samples",
+        "samples_manifest": "visualizations/samples/samples_manifest.json",
+        "sample_annotations_dir": "visualizations/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "Longitudinal Crack",
+            "file": "visualizations/spatial_heatmaps/Longitudinal_Crack.png"
+          },
+          {
+            "class": "Longitudinal Patch",
+            "file": "visualizations/spatial_heatmaps/Longitudinal_Patch.png"
+          },
+          {
+            "class": "Transverse Crack",
+            "file": "visualizations/spatial_heatmaps/Transverse_Crack.png"
+          },
+          {
+            "class": "Manhole Cover",
+            "file": "visualizations/spatial_heatmaps/Manhole_Cover.png"
+          },
+          {
+            "class": "Transverse Patch",
+            "file": "visualizations/spatial_heatmaps/Transverse_Patch.png"
+          },
+          {
+            "class": "Alligator Crack",
+            "file": "visualizations/spatial_heatmaps/Alligator_Crack.png"
+          },
+          {
+            "class": "Pothole",
+            "file": "visualizations/spatial_heatmaps/Pothole.png"
+          }
+        ]
+      }
+    },
+    "chaoyang": {
+      "id": "chaoyang",
+      "label": "Chaoyang",
+      "split_names": [
+        "chaoyang"
+      ],
+      "summary": {
+        "num_images": 2000,
+        "num_annotations": 3983,
+        "num_images_with_annotations": 2000,
+        "num_images_without_annotations": 0,
+        "num_classes": 7,
+        "annotation_coverage": 1.0,
+        "class_distribution": {
+          "Transverse Patch": 364,
+          "Longitudinal Patch": 734,
+          "Transverse Crack": 677,
+          "Longitudinal Crack": 1147,
+          "Manhole Cover": 578,
+          "Pothole": 55,
+          "Alligator Crack": 428
+        },
+        "resolutions": [
+          "1024x1024"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "1024x1024",
+            "count": 2000
+          }
+        ]
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Crack",
+              914,
+              1147,
+              1.2549,
+              2.0798
+            ],
+            [
+              "Longitudinal Patch",
+              513,
+              734,
+              1.4308,
+              1.9323
+            ],
+            [
+              "Transverse Crack",
+              526,
+              677,
+              1.2871,
+              1.8828
+            ],
+            [
+              "Manhole Cover",
+              437,
+              578,
+              1.3227,
+              0.1045
+            ],
+            [
+              "Alligator Crack",
+              376,
+              428,
+              1.1383,
+              7.206
+            ],
+            [
+              "Transverse Patch",
+              260,
+              364,
+              1.4,
+              1.6725
+            ],
+            [
+              "Pothole",
+              43,
+              55,
+              1.2791,
+              0.3437
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Alligator Crack",
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Manhole Cover",
+            "Pothole",
+            "Transverse Crack",
+            "Transverse Patch"
+          ],
+          "data": [
+            [
+              376,
+              73,
+              10,
+              76,
+              10,
+              69,
+              6
+            ],
+            [
+              73,
+              914,
+              64,
+              212,
+              9,
+              213,
+              47
+            ],
+            [
+              10,
+              64,
+              513,
+              90,
+              4,
+              37,
+              137
+            ],
+            [
+              76,
+              212,
+              90,
+              437,
+              7,
+              142,
+              60
+            ],
+            [
+              10,
+              9,
+              4,
+              7,
+              43,
+              9,
+              2
+            ],
+            [
+              69,
+              213,
+              37,
+              142,
+              9,
+              526,
+              25
+            ],
+            [
+              6,
+              47,
+              137,
+              60,
+              2,
+              25,
+              260
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Crack",
+              1147,
+              1.6573,
+              17.6793,
+              0.0053,
+              14.0,
+              1.3672,
+              380.0,
+              37.1094,
+              126.13,
+              12.3173
+            ],
+            [
+              "Longitudinal Patch",
+              734,
+              1.3505,
+              10.0971,
+              0.0063,
+              5.0,
+              0.4883,
+              306.0,
+              29.8828,
+              103.04,
+              10.0621
+            ],
+            [
+              "Transverse Crack",
+              677,
+              1.4629,
+              11.3487,
+              0.0248,
+              4.0,
+              0.3906,
+              181.0,
+              17.6758,
+              37.94,
+              3.7055
+            ],
+            [
+              "Manhole Cover",
+              578,
+              0.079,
+              0.5888,
+              0.0049,
+              3.0,
+              0.293,
+              49.0,
+              4.7852,
+              13.99,
+              1.3658
+            ],
+            [
+              "Alligator Crack",
+              428,
+              6.3305,
+              31.8048,
+              0.1413,
+              20.0,
+              1.9531,
+              329.0,
+              32.1289,
+              159.28,
+              15.555
+            ],
+            [
+              "Transverse Patch",
+              364,
+              1.1946,
+              14.5803,
+              0.01,
+              3.0,
+              0.293,
+              166.0,
+              16.2109,
+              33.68,
+              3.2895
+            ],
+            [
+              "Pothole",
+              55,
+              0.2687,
+              2.1286,
+              0.0057,
+              5.0,
+              0.4883,
+              108.0,
+              10.5469,
+              28.42,
+              2.7752
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "y_labels": [
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Transverse Crack",
+            "Manhole Cover",
+            "Alligator Crack",
+            "Transverse Patch",
+            "Pothole"
+          ],
+          "z": [
+            [
+              1086,
+              725,
+              151,
+              32,
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              1487,
+              371,
+              89,
+              37,
+              9,
+              5,
+              1,
+              1
+            ],
+            [
+              1474,
+              403,
+              101,
+              16,
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              1563,
+              327,
+              86,
+              18,
+              5,
+              1,
+              0,
+              0
+            ],
+            [
+              1624,
+              329,
+              42,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1740,
+              184,
+              56,
+              13,
+              6,
+              1,
+              0,
+              0
+            ],
+            [
+              1957,
+              35,
+              6,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 0
+                },
+                {
+                  "x": "1",
+                  "y": 1144
+                },
+                {
+                  "x": "2",
+                  "y": 663
+                },
+                {
+                  "x": "3",
+                  "y": 173
+                },
+                {
+                  "x": "4",
+                  "y": 20
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "Longitudinal Crack",
+                  "y": 2.0798
+                },
+                {
+                  "x": "Longitudinal Patch",
+                  "y": 1.9323
+                },
+                {
+                  "x": "Transverse Crack",
+                  "y": 1.8828
+                },
+                {
+                  "x": "Manhole Cover",
+                  "y": 0.1045
+                },
+                {
+                  "x": "Alligator Crack",
+                  "y": 7.206
+                },
+                {
+                  "x": "Transverse Patch",
+                  "y": 1.6725
+                },
+                {
+                  "x": "Pothole",
+                  "y": 0.3437
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/region_views/chaoyang/samples",
+        "samples_manifest": "visualizations/region_views/chaoyang/samples/samples_manifest.json",
+        "sample_annotations_dir": "visualizations/region_views/chaoyang/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/region_views/chaoyang/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "Longitudinal Crack",
+            "file": "visualizations/region_views/chaoyang/spatial_heatmaps/Longitudinal_Crack.png"
+          },
+          {
+            "class": "Longitudinal Patch",
+            "file": "visualizations/region_views/chaoyang/spatial_heatmaps/Longitudinal_Patch.png"
+          },
+          {
+            "class": "Transverse Crack",
+            "file": "visualizations/region_views/chaoyang/spatial_heatmaps/Transverse_Crack.png"
+          },
+          {
+            "class": "Manhole Cover",
+            "file": "visualizations/region_views/chaoyang/spatial_heatmaps/Manhole_Cover.png"
+          },
+          {
+            "class": "Alligator Crack",
+            "file": "visualizations/region_views/chaoyang/spatial_heatmaps/Alligator_Crack.png"
+          },
+          {
+            "class": "Transverse Patch",
+            "file": "visualizations/region_views/chaoyang/spatial_heatmaps/Transverse_Patch.png"
+          },
+          {
+            "class": "Pothole",
+            "file": "visualizations/region_views/chaoyang/spatial_heatmaps/Pothole.png"
+          }
+        ]
+      }
+    },
+    "dongcheng": {
+      "id": "dongcheng",
+      "label": "Dongcheng",
+      "split_names": [
+        "dongcheng"
+      ],
+      "summary": {
+        "num_images": 1000,
+        "num_annotations": 2879,
+        "num_images_with_annotations": 1000,
+        "num_images_without_annotations": 0,
+        "num_classes": 7,
+        "annotation_coverage": 1.0,
+        "class_distribution": {
+          "Longitudinal Crack": 731,
+          "Manhole Cover": 654,
+          "Transverse Crack": 415,
+          "Transverse Patch": 407,
+          "Alligator Crack": 95,
+          "Pothole": 20,
+          "Longitudinal Patch": 557
+        },
+        "resolutions": [
+          "1024x1024"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "1024x1024",
+            "count": 1000
+          }
+        ]
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Crack",
+              538,
+              731,
+              1.3587,
+              2.3357
+            ],
+            [
+              "Manhole Cover",
+              389,
+              654,
+              1.6812,
+              0.1464
+            ],
+            [
+              "Longitudinal Patch",
+              287,
+              557,
+              1.9408,
+              1.8619
+            ],
+            [
+              "Transverse Crack",
+              315,
+              415,
+              1.3175,
+              1.7319
+            ],
+            [
+              "Transverse Patch",
+              245,
+              407,
+              1.6612,
+              1.5334
+            ],
+            [
+              "Alligator Crack",
+              87,
+              95,
+              1.092,
+              4.7026
+            ],
+            [
+              "Pothole",
+              18,
+              20,
+              1.1111,
+              0.1648
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Alligator Crack",
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Manhole Cover",
+            "Pothole",
+            "Transverse Crack",
+            "Transverse Patch"
+          ],
+          "data": [
+            [
+              87,
+              35,
+              0,
+              52,
+              6,
+              27,
+              3
+            ],
+            [
+              35,
+              538,
+              36,
+              258,
+              8,
+              172,
+              29
+            ],
+            [
+              0,
+              36,
+              287,
+              38,
+              1,
+              23,
+              188
+            ],
+            [
+              52,
+              258,
+              38,
+              389,
+              11,
+              173,
+              23
+            ],
+            [
+              6,
+              8,
+              1,
+              11,
+              18,
+              4,
+              0
+            ],
+            [
+              27,
+              172,
+              23,
+              173,
+              4,
+              315,
+              22
+            ],
+            [
+              3,
+              29,
+              188,
+              23,
+              0,
+              22,
+              245
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Crack",
+              731,
+              1.719,
+              15.0537,
+              0.0154,
+              15.0,
+              1.4648,
+              422.0,
+              41.2109,
+              143.55,
+              14.0185
+            ],
+            [
+              "Manhole Cover",
+              654,
+              0.0871,
+              0.6714,
+              0.0057,
+              3.0,
+              0.293,
+              55.0,
+              5.3711,
+              15.02,
+              1.4669
+            ],
+            [
+              "Longitudinal Patch",
+              557,
+              0.9594,
+              18.6409,
+              0.0067,
+              9.0,
+              0.8789,
+              424.0,
+              41.4062,
+              97.15,
+              9.4876
+            ],
+            [
+              "Transverse Crack",
+              415,
+              1.3146,
+              20.6654,
+              0.0324,
+              6.0,
+              0.5859,
+              218.0,
+              21.2891,
+              36.99,
+              3.6126
+            ],
+            [
+              "Transverse Patch",
+              407,
+              0.9231,
+              11.5122,
+              0.0072,
+              4.0,
+              0.3906,
+              158.0,
+              15.4297,
+              25.7,
+              2.5098
+            ],
+            [
+              "Alligator Crack",
+              95,
+              4.3066,
+              22.1968,
+              0.3562,
+              45.0,
+              4.3945,
+              350.0,
+              34.1797,
+              158.18,
+              15.4472
+            ],
+            [
+              "Pothole",
+              20,
+              0.1483,
+              0.6527,
+              0.0114,
+              6.0,
+              0.5859,
+              59.0,
+              5.7617,
+              20.8,
+              2.0312
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "y_labels": [
+            "Longitudinal Crack",
+            "Manhole Cover",
+            "Longitudinal Patch",
+            "Transverse Crack",
+            "Transverse Patch",
+            "Alligator Crack",
+            "Pothole"
+          ],
+          "z": [
+            [
+              462,
+              394,
+              105,
+              29,
+              10,
+              0,
+              0,
+              0
+            ],
+            [
+              611,
+              224,
+              105,
+              34,
+              16,
+              6,
+              4,
+              0
+            ],
+            [
+              713,
+              129,
+              88,
+              41,
+              20,
+              6,
+              2,
+              1
+            ],
+            [
+              685,
+              235,
+              62,
+              16,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              755,
+              133,
+              73,
+              31,
+              5,
+              3,
+              0,
+              0
+            ],
+            [
+              913,
+              79,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              982,
+              16,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 0
+                },
+                {
+                  "x": "1",
+                  "y": 325
+                },
+                {
+                  "x": "2",
+                  "y": 496
+                },
+                {
+                  "x": "3",
+                  "y": 155
+                },
+                {
+                  "x": "4",
+                  "y": 23
+                },
+                {
+                  "x": "5",
+                  "y": 1
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "Longitudinal Crack",
+                  "y": 2.3357
+                },
+                {
+                  "x": "Manhole Cover",
+                  "y": 0.1464
+                },
+                {
+                  "x": "Longitudinal Patch",
+                  "y": 1.8619
+                },
+                {
+                  "x": "Transverse Crack",
+                  "y": 1.7319
+                },
+                {
+                  "x": "Transverse Patch",
+                  "y": 1.5334
+                },
+                {
+                  "x": "Alligator Crack",
+                  "y": 4.7026
+                },
+                {
+                  "x": "Pothole",
+                  "y": 0.1648
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/region_views/dongcheng/samples",
+        "samples_manifest": "visualizations/region_views/dongcheng/samples/samples_manifest.json",
+        "sample_annotations_dir": "visualizations/region_views/dongcheng/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/region_views/dongcheng/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "Longitudinal Crack",
+            "file": "visualizations/region_views/dongcheng/spatial_heatmaps/Longitudinal_Crack.png"
+          },
+          {
+            "class": "Manhole Cover",
+            "file": "visualizations/region_views/dongcheng/spatial_heatmaps/Manhole_Cover.png"
+          },
+          {
+            "class": "Longitudinal Patch",
+            "file": "visualizations/region_views/dongcheng/spatial_heatmaps/Longitudinal_Patch.png"
+          },
+          {
+            "class": "Transverse Crack",
+            "file": "visualizations/region_views/dongcheng/spatial_heatmaps/Transverse_Crack.png"
+          },
+          {
+            "class": "Transverse Patch",
+            "file": "visualizations/region_views/dongcheng/spatial_heatmaps/Transverse_Patch.png"
+          },
+          {
+            "class": "Alligator Crack",
+            "file": "visualizations/region_views/dongcheng/spatial_heatmaps/Alligator_Crack.png"
+          },
+          {
+            "class": "Pothole",
+            "file": "visualizations/region_views/dongcheng/spatial_heatmaps/Pothole.png"
+          }
+        ]
+      }
+    },
+    "fengtai": {
+      "id": "fengtai",
+      "label": "Fengtai",
+      "split_names": [
+        "fengtai"
+      ],
+      "summary": {
+        "num_images": 2000,
+        "num_annotations": 5636,
+        "num_images_with_annotations": 2000,
+        "num_images_without_annotations": 0,
+        "num_classes": 7,
+        "annotation_coverage": 1.0,
+        "class_distribution": {
+          "Transverse Patch": 908,
+          "Manhole Cover": 715,
+          "Longitudinal Crack": 852,
+          "Longitudinal Patch": 885,
+          "Transverse Crack": 848,
+          "Alligator Crack": 763,
+          "Pothole": 665
+        },
+        "resolutions": [
+          "1024x1024"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "1024x1024",
+            "count": 2000
+          }
+        ]
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "Transverse Patch",
+              520,
+              908,
+              1.7462,
+              3.9446
+            ],
+            [
+              "Longitudinal Patch",
+              460,
+              885,
+              1.9239,
+              5.1963
+            ],
+            [
+              "Longitudinal Crack",
+              546,
+              852,
+              1.5604,
+              4.9023
+            ],
+            [
+              "Transverse Crack",
+              582,
+              848,
+              1.457,
+              3.072
+            ],
+            [
+              "Alligator Crack",
+              628,
+              763,
+              1.215,
+              22.6865
+            ],
+            [
+              "Manhole Cover",
+              514,
+              715,
+              1.3911,
+              0.1946
+            ],
+            [
+              "Pothole",
+              439,
+              665,
+              1.5148,
+              0.4796
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Alligator Crack",
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Manhole Cover",
+            "Pothole",
+            "Transverse Crack",
+            "Transverse Patch"
+          ],
+          "data": [
+            [
+              628,
+              111,
+              2,
+              187,
+              201,
+              93,
+              1
+            ],
+            [
+              111,
+              546,
+              37,
+              202,
+              163,
+              236,
+              41
+            ],
+            [
+              2,
+              37,
+              460,
+              61,
+              17,
+              7,
+              351
+            ],
+            [
+              187,
+              202,
+              61,
+              514,
+              164,
+              207,
+              59
+            ],
+            [
+              201,
+              163,
+              17,
+              164,
+              439,
+              144,
+              23
+            ],
+            [
+              93,
+              236,
+              7,
+              207,
+              144,
+              582,
+              12
+            ],
+            [
+              1,
+              41,
+              351,
+              59,
+              23,
+              12,
+              520
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "Transverse Patch",
+              908,
+              2.259,
+              17.7561,
+              0.02,
+              5.0,
+              0.4883,
+              215.0,
+              20.9961,
+              48.37,
+              4.7233
+            ],
+            [
+              "Longitudinal Patch",
+              885,
+              2.7009,
+              20.5161,
+              0.0084,
+              11.0,
+              1.0742,
+              477.0,
+              46.582,
+              133.97,
+              13.0827
+            ],
+            [
+              "Longitudinal Crack",
+              852,
+              3.1416,
+              26.8263,
+              0.016,
+              11.0,
+              1.0742,
+              467.0,
+              45.6055,
+              155.06,
+              15.1421
+            ],
+            [
+              "Transverse Crack",
+              848,
+              2.1083,
+              18.9268,
+              0.03,
+              6.0,
+              0.5859,
+              223.0,
+              21.7773,
+              50.74,
+              4.9552
+            ],
+            [
+              "Alligator Crack",
+              763,
+              18.6725,
+              48.5853,
+              0.0957,
+              17.0,
+              1.6602,
+              498.0,
+              48.6328,
+              290.47,
+              28.3664
+            ],
+            [
+              "Manhole Cover",
+              715,
+              0.1399,
+              1.5448,
+              0.008,
+              4.0,
+              0.3906,
+              91.0,
+              8.8867,
+              19.52,
+              1.906
+            ],
+            [
+              "Pothole",
+              665,
+              0.3166,
+              6.4553,
+              0.0047,
+              5.0,
+              0.4883,
+              227.0,
+              22.168,
+              30.87,
+              3.0146
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "y_labels": [
+            "Transverse Patch",
+            "Longitudinal Patch",
+            "Longitudinal Crack",
+            "Transverse Crack",
+            "Alligator Crack",
+            "Manhole Cover",
+            "Pothole"
+          ],
+          "z": [
+            [
+              1480,
+              277,
+              155,
+              55,
+              17,
+              10,
+              4,
+              2,
+              0
+            ],
+            [
+              1540,
+              225,
+              124,
+              64,
+              24,
+              17,
+              4,
+              1,
+              1
+            ],
+            [
+              1454,
+              341,
+              138,
+              41,
+              20,
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              1418,
+              385,
+              144,
+              41,
+              9,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1372,
+              520,
+              85,
+              20,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1486,
+              370,
+              104,
+              28,
+              8,
+              3,
+              1,
+              0,
+              0
+            ],
+            [
+              1561,
+              298,
+              85,
+              38,
+              10,
+              6,
+              1,
+              1,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 0
+                },
+                {
+                  "x": "1",
+                  "y": 820
+                },
+                {
+                  "x": "2",
+                  "y": 779
+                },
+                {
+                  "x": "3",
+                  "y": 305
+                },
+                {
+                  "x": "4",
+                  "y": 85
+                },
+                {
+                  "x": "5",
+                  "y": 10
+                },
+                {
+                  "x": "6",
+                  "y": 1
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "Transverse Patch",
+                  "y": 3.9446
+                },
+                {
+                  "x": "Longitudinal Patch",
+                  "y": 5.1963
+                },
+                {
+                  "x": "Longitudinal Crack",
+                  "y": 4.9023
+                },
+                {
+                  "x": "Transverse Crack",
+                  "y": 3.072
+                },
+                {
+                  "x": "Alligator Crack",
+                  "y": 22.6865
+                },
+                {
+                  "x": "Manhole Cover",
+                  "y": 0.1946
+                },
+                {
+                  "x": "Pothole",
+                  "y": 0.4796
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/region_views/fengtai/samples",
+        "samples_manifest": "visualizations/region_views/fengtai/samples/samples_manifest.json",
+        "sample_annotations_dir": "visualizations/region_views/fengtai/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/region_views/fengtai/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "Transverse Patch",
+            "file": "visualizations/region_views/fengtai/spatial_heatmaps/Transverse_Patch.png"
+          },
+          {
+            "class": "Longitudinal Patch",
+            "file": "visualizations/region_views/fengtai/spatial_heatmaps/Longitudinal_Patch.png"
+          },
+          {
+            "class": "Longitudinal Crack",
+            "file": "visualizations/region_views/fengtai/spatial_heatmaps/Longitudinal_Crack.png"
+          },
+          {
+            "class": "Transverse Crack",
+            "file": "visualizations/region_views/fengtai/spatial_heatmaps/Transverse_Crack.png"
+          },
+          {
+            "class": "Alligator Crack",
+            "file": "visualizations/region_views/fengtai/spatial_heatmaps/Alligator_Crack.png"
+          },
+          {
+            "class": "Manhole Cover",
+            "file": "visualizations/region_views/fengtai/spatial_heatmaps/Manhole_Cover.png"
+          },
+          {
+            "class": "Pothole",
+            "file": "visualizations/region_views/fengtai/spatial_heatmaps/Pothole.png"
+          }
+        ]
+      }
+    },
+    "haidian": {
+      "id": "haidian",
+      "label": "Haidian",
+      "split_names": [
+        "haidian"
+      ],
+      "summary": {
+        "num_images": 2000,
+        "num_annotations": 5913,
+        "num_images_with_annotations": 2000,
+        "num_images_without_annotations": 0,
+        "num_classes": 7,
+        "annotation_coverage": 1.0,
+        "class_distribution": {
+          "Transverse Crack": 1153,
+          "Alligator Crack": 378,
+          "Transverse Patch": 706,
+          "Longitudinal Crack": 1160,
+          "Longitudinal Patch": 1447,
+          "Manhole Cover": 896,
+          "Pothole": 173
+        },
+        "resolutions": [
+          "1024x1024"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "1024x1024",
+            "count": 2000
+          }
+        ]
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Patch",
+              646,
+              1447,
+              2.2399,
+              2.5033
+            ],
+            [
+              "Longitudinal Crack",
+              745,
+              1160,
+              1.557,
+              2.7977
+            ],
+            [
+              "Transverse Crack",
+              801,
+              1153,
+              1.4395,
+              2.2188
+            ],
+            [
+              "Manhole Cover",
+              578,
+              896,
+              1.5502,
+              0.149
+            ],
+            [
+              "Transverse Patch",
+              509,
+              706,
+              1.387,
+              1.8769
+            ],
+            [
+              "Alligator Crack",
+              325,
+              378,
+              1.1631,
+              8.9102
+            ],
+            [
+              "Pothole",
+              122,
+              173,
+              1.418,
+              0.0848
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Alligator Crack",
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Manhole Cover",
+            "Pothole",
+            "Transverse Crack",
+            "Transverse Patch"
+          ],
+          "data": [
+            [
+              325,
+              72,
+              24,
+              90,
+              21,
+              75,
+              9
+            ],
+            [
+              72,
+              745,
+              119,
+              250,
+              53,
+              352,
+              84
+            ],
+            [
+              24,
+              119,
+              646,
+              159,
+              18,
+              112,
+              342
+            ],
+            [
+              90,
+              250,
+              159,
+              578,
+              41,
+              276,
+              115
+            ],
+            [
+              21,
+              53,
+              18,
+              41,
+              122,
+              32,
+              17
+            ],
+            [
+              75,
+              352,
+              112,
+              276,
+              32,
+              801,
+              82
+            ],
+            [
+              9,
+              84,
+              342,
+              115,
+              17,
+              82,
+              509
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Patch",
+              1447,
+              1.1176,
+              14.3452,
+              0.0046,
+              8.0,
+              0.7812,
+              332.0,
+              32.4219,
+              88.15,
+              8.6081
+            ],
+            [
+              "Longitudinal Crack",
+              1160,
+              1.7968,
+              14.8506,
+              0.0084,
+              11.0,
+              1.0742,
+              385.0,
+              37.5977,
+              123.73,
+              12.0827
+            ],
+            [
+              "Transverse Crack",
+              1153,
+              1.5415,
+              13.0262,
+              0.0164,
+              3.0,
+              0.293,
+              234.0,
+              22.8516,
+              38.14,
+              3.7246
+            ],
+            [
+              "Manhole Cover",
+              896,
+              0.0961,
+              1.5702,
+              0.0031,
+              2.0,
+              0.1953,
+              89.0,
+              8.6914,
+              15.11,
+              1.4756
+            ],
+            [
+              "Transverse Patch",
+              706,
+              1.3532,
+              18.9197,
+              0.0069,
+              3.0,
+              0.293,
+              201.0,
+              19.6289,
+              34.79,
+              3.3971
+            ],
+            [
+              "Alligator Crack",
+              378,
+              7.6609,
+              39.6271,
+              0.1099,
+              27.0,
+              2.6367,
+              451.0,
+              44.043,
+              167.13,
+              16.3215
+            ],
+            [
+              "Pothole",
+              173,
+              0.0598,
+              1.7484,
+              0.0023,
+              3.0,
+              0.293,
+              97.0,
+              9.4727,
+              12.74,
+              1.2441
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "y_labels": [
+            "Longitudinal Patch",
+            "Longitudinal Crack",
+            "Transverse Crack",
+            "Manhole Cover",
+            "Transverse Patch",
+            "Alligator Crack",
+            "Pothole"
+          ],
+          "z": [
+            [
+              1354,
+              252,
+              180,
+              112,
+              52,
+              27,
+              14,
+              6,
+              0,
+              1,
+              1,
+              1
+            ],
+            [
+              1255,
+              480,
+              163,
+              65,
+              29,
+              6,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1199,
+              553,
+              181,
+              45,
+              14,
+              4,
+              2,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1422,
+              378,
+              125,
+              46,
+              22,
+              4,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1491,
+              362,
+              108,
+              31,
+              6,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1675,
+              274,
+              49,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1878,
+              86,
+              27,
+              4,
+              4,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 0
+                },
+                {
+                  "x": "1",
+                  "y": 788
+                },
+                {
+                  "x": "2",
+                  "y": 789
+                },
+                {
+                  "x": "3",
+                  "y": 343
+                },
+                {
+                  "x": "4",
+                  "y": 70
+                },
+                {
+                  "x": "5",
+                  "y": 9
+                },
+                {
+                  "x": "6",
+                  "y": 1
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "Longitudinal Patch",
+                  "y": 2.5033
+                },
+                {
+                  "x": "Longitudinal Crack",
+                  "y": 2.7977
+                },
+                {
+                  "x": "Transverse Crack",
+                  "y": 2.2188
+                },
+                {
+                  "x": "Manhole Cover",
+                  "y": 0.149
+                },
+                {
+                  "x": "Transverse Patch",
+                  "y": 1.8769
+                },
+                {
+                  "x": "Alligator Crack",
+                  "y": 8.9102
+                },
+                {
+                  "x": "Pothole",
+                  "y": 0.0848
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/region_views/haidian/samples",
+        "samples_manifest": "visualizations/region_views/haidian/samples/samples_manifest.json",
+        "sample_annotations_dir": "visualizations/region_views/haidian/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/region_views/haidian/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "Longitudinal Patch",
+            "file": "visualizations/region_views/haidian/spatial_heatmaps/Longitudinal_Patch.png"
+          },
+          {
+            "class": "Longitudinal Crack",
+            "file": "visualizations/region_views/haidian/spatial_heatmaps/Longitudinal_Crack.png"
+          },
+          {
+            "class": "Transverse Crack",
+            "file": "visualizations/region_views/haidian/spatial_heatmaps/Transverse_Crack.png"
+          },
+          {
+            "class": "Manhole Cover",
+            "file": "visualizations/region_views/haidian/spatial_heatmaps/Manhole_Cover.png"
+          },
+          {
+            "class": "Transverse Patch",
+            "file": "visualizations/region_views/haidian/spatial_heatmaps/Transverse_Patch.png"
+          },
+          {
+            "class": "Alligator Crack",
+            "file": "visualizations/region_views/haidian/spatial_heatmaps/Alligator_Crack.png"
+          },
+          {
+            "class": "Pothole",
+            "file": "visualizations/region_views/haidian/spatial_heatmaps/Pothole.png"
+          }
+        ]
+      }
+    },
+    "xicheng": {
+      "id": "xicheng",
+      "label": "Xicheng",
+      "split_names": [
+        "xicheng"
+      ],
+      "summary": {
+        "num_images": 1000,
+        "num_annotations": 2393,
+        "num_images_with_annotations": 1000,
+        "num_images_without_annotations": 0,
+        "num_classes": 7,
+        "annotation_coverage": 1.0,
+        "class_distribution": {
+          "Longitudinal Patch": 505,
+          "Manhole Cover": 496,
+          "Longitudinal Crack": 775,
+          "Transverse Patch": 237,
+          "Transverse Crack": 311,
+          "Alligator Crack": 64,
+          "Pothole": 5
+        },
+        "resolutions": [
+          "1024x1024"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "1024x1024",
+            "count": 1000
+          }
+        ]
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Crack",
+              590,
+              775,
+              1.3136,
+              2.4284
+            ],
+            [
+              "Longitudinal Patch",
+              314,
+              505,
+              1.6083,
+              2.3167
+            ],
+            [
+              "Manhole Cover",
+              327,
+              496,
+              1.5168,
+              0.1566
+            ],
+            [
+              "Transverse Crack",
+              235,
+              311,
+              1.3234,
+              2.2139
+            ],
+            [
+              "Transverse Patch",
+              172,
+              237,
+              1.3779,
+              1.4091
+            ],
+            [
+              "Alligator Crack",
+              59,
+              64,
+              1.0847,
+              5.9371
+            ],
+            [
+              "Pothole",
+              5,
+              5,
+              1.0,
+              0.0177
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Alligator Crack",
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Manhole Cover",
+            "Pothole",
+            "Transverse Crack",
+            "Transverse Patch"
+          ],
+          "data": [
+            [
+              59,
+              23,
+              5,
+              24,
+              0,
+              11,
+              0
+            ],
+            [
+              23,
+              590,
+              35,
+              235,
+              2,
+              138,
+              21
+            ],
+            [
+              5,
+              35,
+              314,
+              56,
+              3,
+              21,
+              138
+            ],
+            [
+              24,
+              235,
+              56,
+              327,
+              3,
+              103,
+              27
+            ],
+            [
+              0,
+              2,
+              3,
+              3,
+              5,
+              0,
+              0
+            ],
+            [
+              11,
+              138,
+              21,
+              103,
+              0,
+              235,
+              12
+            ],
+            [
+              0,
+              21,
+              138,
+              27,
+              0,
+              12,
+              172
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "Longitudinal Crack",
+              775,
+              1.8487,
+              14.6851,
+              0.028,
+              20.0,
+              1.9531,
+              401.0,
+              39.1602,
+              164.17,
+              16.032
+            ],
+            [
+              "Longitudinal Patch",
+              505,
+              1.4405,
+              16.7,
+              0.0095,
+              11.0,
+              1.0742,
+              383.0,
+              37.4023,
+              128.09,
+              12.5089
+            ],
+            [
+              "Manhole Cover",
+              496,
+              0.1032,
+              0.7689,
+              0.0092,
+              4.0,
+              0.3906,
+              58.0,
+              5.6641,
+              16.75,
+              1.6353
+            ],
+            [
+              "Transverse Crack",
+              311,
+              1.6729,
+              11.5936,
+              0.058,
+              6.0,
+              0.5859,
+              192.0,
+              18.75,
+              43.44,
+              4.2422
+            ],
+            [
+              "Transverse Patch",
+              237,
+              1.0226,
+              11.6627,
+              0.0137,
+              4.0,
+              0.3906,
+              141.0,
+              13.7695,
+              27.89,
+              2.7241
+            ],
+            [
+              "Alligator Crack",
+              64,
+              5.4732,
+              24.7574,
+              0.1297,
+              20.0,
+              1.9531,
+              303.0,
+              29.5898,
+              156.61,
+              15.2939
+            ],
+            [
+              "Pothole",
+              5,
+              0.0177,
+              0.0286,
+              0.008,
+              6.0,
+              0.5859,
+              12.0,
+              1.1719,
+              8.8,
+              0.8594
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "y_labels": [
+            "Longitudinal Crack",
+            "Longitudinal Patch",
+            "Manhole Cover",
+            "Transverse Crack",
+            "Transverse Patch",
+            "Alligator Crack",
+            "Pothole"
+          ],
+          "z": [
+            [
+              410,
+              439,
+              121,
+              27,
+              2,
+              1,
+              0
+            ],
+            [
+              686,
+              180,
+              91,
+              34,
+              6,
+              1,
+              2
+            ],
+            [
+              673,
+              218,
+              67,
+              31,
+              5,
+              5,
+              1
+            ],
+            [
+              765,
+              174,
+              48,
+              11,
+              2,
+              0,
+              0
+            ],
+            [
+              828,
+              122,
+              40,
+              6,
+              3,
+              1,
+              0
+            ],
+            [
+              941,
+              57,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              995,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 0
+                },
+                {
+                  "x": "1",
+                  "y": 437
+                },
+                {
+                  "x": "2",
+                  "y": 438
+                },
+                {
+                  "x": "3",
+                  "y": 113
+                },
+                {
+                  "x": "4",
+                  "y": 10
+                },
+                {
+                  "x": "5",
+                  "y": 2
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "Longitudinal Crack",
+                  "y": 2.4284
+                },
+                {
+                  "x": "Longitudinal Patch",
+                  "y": 2.3167
+                },
+                {
+                  "x": "Manhole Cover",
+                  "y": 0.1566
+                },
+                {
+                  "x": "Transverse Crack",
+                  "y": 2.2139
+                },
+                {
+                  "x": "Transverse Patch",
+                  "y": 1.4091
+                },
+                {
+                  "x": "Alligator Crack",
+                  "y": 5.9371
+                },
+                {
+                  "x": "Pothole",
+                  "y": 0.0177
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/region_views/xicheng/samples",
+        "samples_manifest": "visualizations/region_views/xicheng/samples/samples_manifest.json",
+        "sample_annotations_dir": "visualizations/region_views/xicheng/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/region_views/xicheng/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "Longitudinal Crack",
+            "file": "visualizations/region_views/xicheng/spatial_heatmaps/Longitudinal_Crack.png"
+          },
+          {
+            "class": "Longitudinal Patch",
+            "file": "visualizations/region_views/xicheng/spatial_heatmaps/Longitudinal_Patch.png"
+          },
+          {
+            "class": "Manhole Cover",
+            "file": "visualizations/region_views/xicheng/spatial_heatmaps/Manhole_Cover.png"
+          },
+          {
+            "class": "Transverse Crack",
+            "file": "visualizations/region_views/xicheng/spatial_heatmaps/Transverse_Crack.png"
+          },
+          {
+            "class": "Transverse Patch",
+            "file": "visualizations/region_views/xicheng/spatial_heatmaps/Transverse_Patch.png"
+          },
+          {
+            "class": "Alligator Crack",
+            "file": "visualizations/region_views/xicheng/spatial_heatmaps/Alligator_Crack.png"
+          },
+          {
+            "class": "Pothole",
+            "file": "visualizations/region_views/xicheng/spatial_heatmaps/Pothole.png"
+          }
+        ]
+      }
+    }
+  }
+}

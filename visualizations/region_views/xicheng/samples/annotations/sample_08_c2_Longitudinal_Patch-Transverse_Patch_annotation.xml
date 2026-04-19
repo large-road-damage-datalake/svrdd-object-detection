@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Xicheng</folder>
+   <filename>09002200121901231629183152L_1295222500_482959800.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Transverse Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>482</xmin>
+         <ymin>781</ymin>
+         <xmax>549</xmax>
+         <ymax>814</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Longitudinal Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>519</xmin>
+         <ymin>561</ymin>
+         <xmax>554</xmax>
+         <ymax>619</ymax>
+      </bndbox>
+   </object>
+</annotation>

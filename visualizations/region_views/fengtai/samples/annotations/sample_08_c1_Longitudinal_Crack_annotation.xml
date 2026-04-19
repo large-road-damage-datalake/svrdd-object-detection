@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Fengtai</folder>
+   <filename>09002200121902231451010832K_1295745500_481752200.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Longitudinal Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>434</xmin>
+         <ymin>697</ymin>
+         <xmax>483</xmax>
+         <ymax>879</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Longitudinal Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>465</xmin>
+         <ymin>650</ymin>
+         <xmax>485</xmax>
+         <ymax>686</ymax>
+      </bndbox>
+   </object>
+</annotation>

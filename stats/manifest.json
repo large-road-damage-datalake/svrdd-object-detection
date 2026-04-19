@@ -37,6 +37,11 @@
       "type": "images"
     },
     {
+      "name": "region_views",
+      "file": "stats/region_views.json",
+      "type": "drilldown"
+    },
+    {
       "name": "samples_summary",
       "file": "stats/samples_summary.json",
       "type": "summary"

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Fengtai</folder>
+   <filename>09002200121902241606575992K_1294909400_481295100.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Alligator Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>489</xmin>
+         <ymin>570</ymin>
+         <xmax>725</xmax>
+         <ymax>705</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Alligator Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>1</xmin>
+         <ymin>616</ymin>
+         <xmax>314</xmax>
+         <ymax>787</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Pothole</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>735</xmin>
+         <ymin>804</ymin>
+         <xmax>761</xmax>
+         <ymax>817</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Transverse Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>299</xmin>
+         <ymin>667</ymin>
+         <xmax>518</xmax>
+         <ymax>680</ymax>
+      </bndbox>
+   </object>
+</annotation>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Fengtai</folder>
+   <filename>0900220012200317165721018HJ_1294898300_480826700.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Alligator Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>270</xmin>
+         <ymin>607</ymin>
+         <xmax>487</xmax>
+         <ymax>790</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Transverse Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>476</xmin>
+         <ymin>638</ymin>
+         <xmax>807</xmax>
+         <ymax>656</ymax>
+      </bndbox>
+   </object>
+</annotation>

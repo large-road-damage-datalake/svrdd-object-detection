@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Dongcheng</folder>
+   <filename>09002200121902221106599728O_1295929300_483511600.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>983</xmin>
+         <ymin>598</ymin>
+         <xmax>1017</xmax>
+         <ymax>608</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Transverse Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>240</xmin>
+         <ymin>687</ymin>
+         <xmax>492</xmax>
+         <ymax>716</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>893</xmin>
+         <ymin>609</ymin>
+         <xmax>926</xmax>
+         <ymax>620</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>878</xmin>
+         <ymin>639</ymin>
+         <xmax>938</xmax>
+         <ymax>657</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>328</xmin>
+         <ymin>602</ymin>
+         <xmax>365</xmax>
+         <ymax>613</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>503</xmin>
+         <ymin>642</ymin>
+         <xmax>552</xmax>
+         <ymax>652</ymax>
+      </bndbox>
+   </object>
+</annotation>

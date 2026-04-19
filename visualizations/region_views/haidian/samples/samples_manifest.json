@@ -1,0 +1,238 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c6_Longitudinal_Crack-Longitudinal_Patch-Manhole_Cover.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\0900220012200311104610442HG_1295322200_483843700.jpg",
+      "classes": [
+        "Longitudinal Crack",
+        "Longitudinal Patch",
+        "Manhole Cover",
+        "Pothole",
+        "Transverse Crack",
+        "Transverse Patch"
+      ],
+      "num_classes": 6,
+      "objects": 7,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_01_c6_Longitudinal_Crack-Longitudinal_Patch-Manhole_Cover_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c3_Longitudinal_Crack-Transverse_Crack-Transverse_Patch.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\01002200001309201307528505A_1293118700_485660800.jpg",
+      "classes": [
+        "Longitudinal Crack",
+        "Transverse Crack",
+        "Transverse Patch"
+      ],
+      "num_classes": 3,
+      "objects": 3,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c3_Longitudinal_Crack-Transverse_Crack-Transverse_Patch_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c2_Longitudinal_Crack-Transverse_Patch.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\0900220001150530080842295I6_1294848400_482406900.jpg",
+      "classes": [
+        "Longitudinal Crack",
+        "Transverse Patch"
+      ],
+      "num_classes": 2,
+      "objects": 2,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c2_Longitudinal_Crack-Transverse_Patch_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c1_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\01002200001307281601515875B_1293220200_484750800.jpg",
+      "classes": [
+        "Longitudinal Crack"
+      ],
+      "num_classes": 1,
+      "objects": 4,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c1_Transverse_Patch.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\0900220012200316112529564HJ_1294142000_483126800.jpg",
+      "classes": [
+        "Transverse Patch"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c1_Transverse_Patch_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c3_Alligator_Crack-Manhole_Cover-Transverse_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\0900220012200306102601690HG_1293798500_485206000.jpg",
+      "classes": [
+        "Alligator Crack",
+        "Manhole Cover",
+        "Transverse Crack"
+      ],
+      "num_classes": 3,
+      "objects": 7,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c3_Alligator_Crack-Manhole_Cover-Transverse_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c1_Transverse_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\01002200001307240855115285B_1294520000_484296600.jpg",
+      "classes": [
+        "Transverse Crack"
+      ],
+      "num_classes": 1,
+      "objects": 2,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c1_Transverse_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c1_Transverse_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\09002200011601121245167329S_1293751400_482765500.jpg",
+      "classes": [
+        "Transverse Crack"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c1_Transverse_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c3_Longitudinal_Crack-Manhole_Cover-Transverse_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\0900220012200318121414288HG_1294792900_483485200.jpg",
+      "classes": [
+        "Longitudinal Crack",
+        "Manhole Cover",
+        "Transverse Crack"
+      ],
+      "num_classes": 3,
+      "objects": 6,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c3_Longitudinal_Crack-Manhole_Cover-Transverse_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c1_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Haidian/JPEGImages\\0900220012200307124426246HG_1294133200_484978200.jpg",
+      "classes": [
+        "Longitudinal Crack"
+      ],
+      "num_classes": 1,
+      "objects": 2,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c1_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

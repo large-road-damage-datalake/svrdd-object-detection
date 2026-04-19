@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Xicheng</folder>
+   <filename>09002200121901211205534692L_1295218600_482423500.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Longitudinal Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>577</xmin>
+         <ymin>574</ymin>
+         <xmax>719</xmax>
+         <ymax>819</ymax>
+      </bndbox>
+   </object>
+</annotation>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Fengtai</folder>
+   <filename>09002200121902221233073917F_1294771400_482193000.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Longitudinal Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>284</xmin>
+         <ymin>679</ymin>
+         <xmax>409</xmax>
+         <ymax>895</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>8</xmin>
+         <ymin>658</ymin>
+         <xmax>65</xmax>
+         <ymax>676</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>630</xmin>
+         <ymin>716</ymin>
+         <xmax>709</xmax>
+         <ymax>741</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>610</xmin>
+         <ymin>837</ymin>
+         <xmax>748</xmax>
+         <ymax>894</ymax>
+      </bndbox>
+   </object>
+</annotation>

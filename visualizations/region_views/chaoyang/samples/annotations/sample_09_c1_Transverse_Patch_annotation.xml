@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Chaoyang</folder>
+   <filename>01002200001308251414296585D_1297963600_484718300.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Transverse Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>28</xmin>
+         <ymin>649</ymin>
+         <xmax>209</xmax>
+         <ymax>703</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Transverse Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>830</xmin>
+         <ymin>635</ymin>
+         <xmax>1023</xmax>
+         <ymax>671</ymax>
+      </bndbox>
+   </object>
+</annotation>

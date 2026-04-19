@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Dongcheng</folder>
+   <filename>09002200121901261136242492Q_1295629400_482040900.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Longitudinal Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>447</xmin>
+         <ymin>575</ymin>
+         <xmax>483</xmax>
+         <ymax>595</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Longitudinal Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>199</xmin>
+         <ymin>721</ymin>
+         <xmax>276</xmax>
+         <ymax>800</ymax>
+      </bndbox>
+   </object>
+</annotation>

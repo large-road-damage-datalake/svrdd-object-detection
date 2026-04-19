@@ -1,0 +1,238 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c5_Longitudinal_Crack-Longitudinal_Patch-Manhole_Cover.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121901231556292282K_1296032600_483034800.jpg",
+      "classes": [
+        "Longitudinal Crack",
+        "Longitudinal Patch",
+        "Manhole Cover",
+        "Transverse Crack",
+        "Transverse Patch"
+      ],
+      "num_classes": 5,
+      "objects": 5,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_01_c5_Longitudinal_Crack-Longitudinal_Patch-Manhole_Cover_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c1_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121707101252036578T_1295813800_481896600.jpg",
+      "classes": [
+        "Longitudinal Crack"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c1_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c2_Longitudinal_Crack-Transverse_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121901261217094062Q_1296259200_482464800.jpg",
+      "classes": [
+        "Longitudinal Crack",
+        "Transverse Crack"
+      ],
+      "num_classes": 2,
+      "objects": 2,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c2_Longitudinal_Crack-Transverse_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c2_Manhole_Cover-Transverse_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121902221106599728O_1295929300_483511600.jpg",
+      "classes": [
+        "Manhole Cover",
+        "Transverse Crack"
+      ],
+      "num_classes": 2,
+      "objects": 6,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c2_Manhole_Cover-Transverse_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c2_Alligator_Crack-Manhole_Cover.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200011706191006588692Q_1295848000_482180700.jpg",
+      "classes": [
+        "Alligator Crack",
+        "Manhole Cover"
+      ],
+      "num_classes": 2,
+      "objects": 2,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c2_Alligator_Crack-Manhole_Cover_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c4_Alligator_Crack-Longitudinal_Crack-Manhole_Cover.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121901271427401192K_1296041000_482742500.jpg",
+      "classes": [
+        "Alligator Crack",
+        "Longitudinal Crack",
+        "Manhole Cover",
+        "Transverse Patch"
+      ],
+      "num_classes": 4,
+      "objects": 5,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c4_Alligator_Crack-Longitudinal_Crack-Manhole_Cover_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c1_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121901201319316102K_1296169500_483277800.jpg",
+      "classes": [
+        "Longitudinal Crack"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c1_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c2_Longitudinal_Patch-Transverse_Patch.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121901201559389592L_1296227700_482888400.jpg",
+      "classes": [
+        "Longitudinal Patch",
+        "Transverse Patch"
+      ],
+      "num_classes": 2,
+      "objects": 2,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c2_Longitudinal_Patch-Transverse_Patch_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c2_Longitudinal_Patch-Transverse_Patch.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121901201545505212L_1296343000_482324000.jpg",
+      "classes": [
+        "Longitudinal Patch",
+        "Transverse Patch"
+      ],
+      "num_classes": 2,
+      "objects": 2,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c2_Longitudinal_Patch-Transverse_Patch_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c1_Longitudinal_Patch.jpg",
+      "source": "D:/PhD/Datasets/object_detection/SVRDD/Dongcheng/JPEGImages\\09002200121901261136242492Q_1295629400_482040900.jpg",
+      "classes": [
+        "Longitudinal Patch"
+      ],
+      "num_classes": 1,
+      "objects": 2,
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "resized_from": {
+        "width": 1024,
+        "height": 1024
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c1_Longitudinal_Patch_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

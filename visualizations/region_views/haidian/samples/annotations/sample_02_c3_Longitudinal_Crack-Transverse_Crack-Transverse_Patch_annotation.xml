@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Haidian</folder>
+   <filename>01002200001309201307528505A_1293118700_485660800.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Transverse Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>1</xmin>
+         <ymin>608</ymin>
+         <xmax>575</xmax>
+         <ymax>656</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Transverse Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>1</xmin>
+         <ymin>762</ymin>
+         <xmax>186</xmax>
+         <ymax>828</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Longitudinal Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>135</xmin>
+         <ymin>809</ymin>
+         <xmax>180</xmax>
+         <ymax>839</ymax>
+      </bndbox>
+   </object>
+</annotation>

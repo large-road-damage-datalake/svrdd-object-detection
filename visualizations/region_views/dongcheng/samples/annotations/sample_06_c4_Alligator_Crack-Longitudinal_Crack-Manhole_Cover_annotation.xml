@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+   <folder>Dongcheng</folder>
+   <filename>09002200121901271427401192K_1296041000_482742500.jpg</filename>
+   <source>
+      <database>SVRDD</database>
+   </source>
+   <size>
+      <width>1024</width>
+      <height>1024</height>
+      <depth>3</depth>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>Longitudinal Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>536</xmin>
+         <ymin>580</ymin>
+         <xmax>611</xmax>
+         <ymax>812</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Transverse Patch</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>191</xmin>
+         <ymin>645</ymin>
+         <xmax>356</xmax>
+         <ymax>670</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Alligator Crack</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>547</xmin>
+         <ymin>673</ymin>
+         <xmax>893</xmax>
+         <ymax>819</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>616</xmin>
+         <ymin>622</ymin>
+         <xmax>667</xmax>
+         <ymax>635</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>Manhole Cover</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>503</xmin>
+         <ymin>659</ymin>
+         <xmax>566</xmax>
+         <ymax>679</ymax>
+      </bndbox>
+   </object>
+</annotation>
