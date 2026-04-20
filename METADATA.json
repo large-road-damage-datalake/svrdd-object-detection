@@ -81,7 +81,7 @@
         {
           "id": 4,
           "name": "Manhole Cover",
-          "canonical_name": "context.manhole_cover",
+          "canonical_name": "context.street_inventory",
           "description": "SVRDD class: Manhole Cover",
           "color": "#A43DC5",
           "instances": 3339
@@ -117,14 +117,14 @@
     "version": "road_damage_v2",
     "classes": [
       {
-        "canonical_name": "context.manhole_cover",
+        "canonical_name": "context.street_inventory",
         "display_name": "Manhole Cover",
-        "damage_family": "unknown",
-        "damage_subtype": "",
-        "role": "unknown",
-        "semantic_role": "unknown",
-        "training_role": "ignore",
-        "status": "provisional",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "street_inventory",
+        "role": "context",
+        "semantic_role": "non_road_context",
+        "training_role": "context",
+        "status": "dataset_specific",
         "is_damage_target": false,
         "aliases": [
           "Manhole Cover"
@@ -133,7 +133,7 @@
           "Manhole Cover"
         ],
         "taxonomy_source": "codebook",
-        "taxonomy_unresolved": true,
+        "taxonomy_unresolved": false,
         "mapping_type": "codebook-based",
         "mapping_confidence": "high"
       },
@@ -259,9 +259,7 @@
       "crack",
       "pothole"
     ],
-    "unresolved_labels": [
-      "Manhole Cover"
-    ]
+    "unresolved_labels": []
   },
   "statistics": {
     "n_images": 8000,
