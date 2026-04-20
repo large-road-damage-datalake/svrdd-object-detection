@@ -114,24 +114,28 @@
     }
   ],
   "class_taxonomy": {
-    "version": "road_damage_v1",
+    "version": "road_damage_v2",
     "classes": [
       {
         "canonical_name": "context.manhole_cover",
-        "display_name": "Manhole Cover",
-        "damage_family": "context_non_damage",
-        "damage_subtype": "manhole_cover",
-        "role": "context",
+        "display_name": "Context Manhole Cover",
+        "damage_family": "unknown",
+        "damage_subtype": "",
+        "role": "unknown",
+        "semantic_role": "unknown",
+        "training_role": "ignore",
+        "status": "provisional",
         "is_damage_target": false,
         "aliases": [
-          "object_fixed",
           "Manhole Cover"
         ],
         "source_labels": [
           "Manhole Cover"
         ],
         "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false
+        "taxonomy_unresolved": true,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.alligator",
@@ -139,6 +143,9 @@
         "damage_family": "crack",
         "damage_subtype": "alligator",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "alligator",
@@ -149,7 +156,9 @@
           "Alligator Crack"
         ],
         "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.longitudinal",
@@ -157,17 +166,23 @@
         "damage_family": "crack",
         "damage_subtype": "longitudinal",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "longitudinal",
           "Longitudinal crack",
-          "Lane Longitudinal Crack"
+          "Lane Longitudinal Crack",
+          "Sealed Longitudinal Crack"
         ],
         "source_labels": [
           "Longitudinal Crack"
         ],
         "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.transverse",
@@ -175,17 +190,24 @@
         "damage_family": "crack",
         "damage_subtype": "transverse",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "transverse",
           "Transverse crack",
-          "Transvers Crack"
+          "Transvers Crack",
+          "Sealed Transvers Cracks",
+          "Sealed Transverse Crack"
         ],
         "source_labels": [
           "Transverse Crack"
         ],
         "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "pothole",
@@ -193,6 +215,9 @@
         "damage_family": "pothole",
         "damage_subtype": "generic",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "pothole"
@@ -201,7 +226,9 @@
           "Pothole"
         ],
         "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "repair.general",
@@ -209,25 +236,32 @@
         "damage_family": "patch_repair",
         "damage_subtype": "generic",
         "role": "repair",
+        "semantic_role": "repair",
+        "training_role": "context",
+        "status": "stable",
         "is_damage_target": false,
         "aliases": [
           "Repair",
-          "Transverse Patch",
-          "Longitudinal Patch"
+          "Longitudinal Patch",
+          "Transverse Patch"
         ],
         "source_labels": [
-          "Transverse Patch",
-          "Longitudinal Patch"
+          "Longitudinal Patch",
+          "Transverse Patch"
         ],
         "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       }
     ],
     "damage_types": [
       "crack",
       "pothole"
     ],
-    "unresolved_labels": []
+    "unresolved_labels": [
+      "Manhole Cover"
+    ]
   },
   "statistics": {
     "n_images": 8000,
